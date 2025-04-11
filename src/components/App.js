@@ -1,10 +1,13 @@
 import React from "react";
+import Home from "./Home";
+import About from "./About";
+import NavBar from "./NavBar"
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Home />
+      <Home/>
       <About />
     </div>
   );
